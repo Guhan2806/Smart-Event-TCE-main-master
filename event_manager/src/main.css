@@ -11,10 +11,9 @@
 }
 
 .welcome {
-  margin-left: 50px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   height: 700px;
-  width: 1400px;
+  width: 1349px;
   background-image: url("./images/clgimg.jpg");
   display: flex;
   flex-direction: column;

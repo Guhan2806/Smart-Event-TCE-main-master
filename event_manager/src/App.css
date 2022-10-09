@@ -2,13 +2,46 @@
   display: flex;
   background-color: darkred;
 }
+.body{
+  height: 700px;
+  width: 1349px;
+  background-image: url("./images/clgimg.jpg");
+}
 #reg{
-  margin-left: 365px;
-  padding-top: 25px;
+  margin-left: 850px;
+  padding-top: 60px;
 }
 #sig{
   margin-left: 10px;
   padding-top: 25px;
+  padding-left: 10px;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 10px 10px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+.titles{
+  position: relative;
+  align-content: center;
+  align-items: center;
+  top: 50px;
+  left: 35px;
+  font-size: large;
+  color: #f1f1f1;
+  width: 200px;
 }
 a{
   color: currentColor;
@@ -17,6 +50,7 @@ a{
 a:hover{
   background-color: black;
   color: antiquewhite;
+  
 }
 button{
   margin-left: 665px;
@@ -24,8 +58,4 @@ button{
   margin-bottom: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
-}
-button:hover{
-  color: antiquewhite;
-  background-color: black;
 }

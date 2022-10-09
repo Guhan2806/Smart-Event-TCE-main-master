@@ -5,6 +5,25 @@
     order: 0;
     flex: 0 1 auto;
     align-self: auto;
+    background-color: aliceblue;
+    font-size: medium;
+}
+.marquee {
+    display: inline-block;
+    padding-left: 80%;
+    font-size: 38px;
+    font-style: bold;
+    background: linear-gradient(
+        to right, skyblue, purple,
+         blue, pink);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: marquee 7s linear infinite;
+    margin: 10px 10px;
+}
+@keyframes marquee {
+    0%   { transform: translate(0, 0); }
+    100% { transform: translate(-75%, 0); }
 }
 .upcoming{
     display: flex;

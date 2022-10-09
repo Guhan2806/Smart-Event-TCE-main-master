@@ -5,7 +5,7 @@ function Upcoming() {
   return (
     <div className="upcoming">
       <div className="title">
-        <h1>Upcoming...</h1>
+      <h1 className="marquee">Upcoming...</h1>
       </div>
       <div className="first">
         <p>Hackathon</p>
