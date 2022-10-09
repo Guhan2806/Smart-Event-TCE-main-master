@@ -1,0 +1,31 @@
+.head{
+  display: flex;
+  background-color: darkred;
+}
+#reg{
+  margin-left: 365px;
+  padding-top: 25px;
+}
+#sig{
+  margin-left: 10px;
+  padding-top: 25px;
+}
+a{
+  color: currentColor;
+  text-decoration: none;
+}
+a:hover{
+  background-color: black;
+  color: antiquewhite;
+}
+button{
+  margin-left: 665px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+button:hover{
+  color: antiquewhite;
+  background-color: black;
+}
